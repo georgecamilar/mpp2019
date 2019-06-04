@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="springclient.LoginFXController">
+  <children>
+    <TextField fx:id="usernameTextField" layoutX="200.0" layoutY="123.0" prefWidth="200.0" />
+    <Label fx:id="label" layoutX="262.0" layoutY="59.0" text="Login">
+      <font>
+        <Font name="Monaco" size="25.0" />
+      </font>
+    </Label>
+    <Button fx:id="loginButton" layoutX="265.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleLoginRequest" text="Log In" />
+    <PasswordField fx:id="passwordTextField" layoutX="200.0" layoutY="187.0" prefWidth="200.0" />
+    <Button fx:id="signupButton" layoutX="261.0" layoutY="347.0" mnemonicParsing="false" onAction="#handleSignUp" text="Sign Up" />
+  </children>
+</AnchorPane>

@@ -1,0 +1,4 @@
+rootProject.name = 'GroundZero'
+include 'Backend'
+include 'Client'
+
